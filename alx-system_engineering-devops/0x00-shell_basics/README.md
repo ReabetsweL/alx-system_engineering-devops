@@ -1,2 +1,3 @@
 #!bin/bash
-Where am i? 
+my first commit
+
