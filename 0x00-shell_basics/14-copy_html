@@ -1,3 +1,2 @@
 #!/bin/bash
-rsync -avu --exclude=".git" --include="*.html" ./ ../
-printf "Done!\n"
+cp $(find . -maxdepth 1 -name "*.html" -type f -newer ../ -exec basename {} \) ../
