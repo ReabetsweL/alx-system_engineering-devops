@@ -1,1 +1,2 @@
-0x00 hello world
+#!/bin/bash 
+Hello World
