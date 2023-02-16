@@ -1,2 +1,2 @@
 #!/bin/bash
-cho "Groups: $(groups)"
+echo "Groups: $(groups)"
