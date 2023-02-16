@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in *.html; do if [ "$file" -nt "../$file" ]. then cp -n "$file" ../. fi. done
+printf '%x\n' $DECIMAL
